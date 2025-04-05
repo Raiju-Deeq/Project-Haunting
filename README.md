@@ -1,4 +1,4 @@
-# Project_Haunting
+# Project Haunting
 
 ## Unreal Engine Project Files
 The project files for our game.
