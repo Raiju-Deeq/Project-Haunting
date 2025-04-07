@@ -4,7 +4,22 @@
 The project files for our game.
 Developed with Unreal Engine 5.3.2
 
-# Project Haunting Updated TDD
+---
+
+# Table Of Contents
+1. **About Us**
+2. **Project Haunting TDD**  
+3. **Project Haunting GDD**
+4. **Supported Platforms**
+5. **Future Plans**  
+
+
+## About Us
+We are second year university students who have been working on creating our own launch ready video game.
+This repo will contain the unreal engine project files as well as the completed build.
+Will update this section closer to completion of the game.
+
+## Project Haunting Updated TDD
 
 **Technical Design Document (TDD) for *Project Haunting of Hollow Manor***  
 *Version 0.3 | Last Updated: April 5, 2025*  
@@ -327,3 +342,14 @@ Data Driven Gameplay Elements in Unreal Engine https://dev.epicgames.com/documen
 Mastering Pipeline Game Development: Insights from WildSphere ... https://www.bravezebra.com/blog/mastering-pipeline-game-development-insights-from-wildsphere-ind
 
 ---
+
+
+## Project Haunting GDD
+
+
+
+## Supported Platforms
+
+
+
+## Future Plans
