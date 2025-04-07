@@ -140,7 +140,7 @@ Alongside the modular design, we'll implement a clear folder structure following
 ---
 
 ### **8. Accessibility & Localization**  
-- **Input Remapping**: Supports Xbox/PS controllers via `EnhancedInputSystem`
+- **Input Remapping**: Supports Xbox/PS controllers via `EnhancedInputSystem` (See Figure W for more details)
 - **Localization**:  
   - Multiple languages managed through Unreal’s `Localization Dashboard` 
   - Example:  
@@ -300,6 +300,10 @@ Figure Z
         /MainHall/
 ```
 
+Figure W
+![Image from Control Scheme 1](https://app.milanote.com/media/p/images/1U1LBm1cKnEkdU/O95/image.png?w=800)
+
+![Image from Control Scheme 1](https://app.milanote.com/media/p/images/1U1LC91cKnEkdV/UH8/image.png?w=800)
 
 ---
 
