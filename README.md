@@ -7,7 +7,7 @@ Developed with Unreal Engine 5.3.2
 ---
 
 # Table Of Contents
-1. **About Us**
+1. [**About Us**](#about-us)
 2. **Project Haunting TDD**  
 3. **Project Haunting GDD**
 4. **Supported Platforms**
