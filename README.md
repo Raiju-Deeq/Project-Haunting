@@ -1,3 +1,8 @@
+<p align="center">
+    <img src="project haunting.png" width="512"/>
+</p>
+
+---
 # Project Haunting
 
 ## Unreal Engine Project Files
