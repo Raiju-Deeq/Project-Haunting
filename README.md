@@ -22,7 +22,7 @@ Will update this section closer to completion of the game.
 ## Project Haunting Updated TDD
 
 **Technical Design Document (TDD) for *Project Haunting of Hollow Manor***  
-*Version 0.3 | Last Updated: April 5, 2025*  
+*Version 0.5 | Last Updated: April 8, 2025*   
 **Technical Focus**: Procedural Generation, Artificial Intelligence & Shaders  
 **Design Focus**: Gameplay & Level Design  
 
