@@ -8,10 +8,10 @@ Developed with Unreal Engine 5.3.2
 
 # Table Of Contents
 1. [**About Us**](#about-us)
-2. **Project Haunting TDD**  
-3. **Project Haunting GDD**
-4. **Supported Platforms**
-5. **Future Plans**  
+2. [**Project Haunting TDD**](#project-haunting-updated-tdd)  
+3. [**Project Haunting GDD**](#project-haunting-gdd)
+4. [**Supported Platforms**](#supported-platforms)
+5. [**Future Plans**](#future-plans)  
 
 
 ## About Us
@@ -29,24 +29,24 @@ Will update this section closer to completion of the game.
 ---
 
 ## **Table of Contents**
-1. **Title Page**  
-2. **Features**  
-3. **Game Engine Justification**  
-4. **Technical Details**  
-   - 4.1 Procedural Room Generation  
-   - 4.2 Enemy AI System + Crafting & Tools  
-   - 4.3 Technical Architecture  
-1. **AI & Logic Implementation**  
-2. **Programming & Procedural Systems**  
-3. **Audio & Visuals**  
-4. **Accessibility & Localization**  
-5. **Risk Mitigation**  
-6. **Quality Assurance**  
-7. **Hardware Requirements**  
-8. **Project Management**  
-9. **Asset Pipeline**  
-10. **Appendix**
-11. **References**
+1. [**Title Page**](#1-title-page)  
+2. [**Features**](#2-features)  
+3. [**Game Engine Justification**](#3-game-engine-justification)  
+4. [**Technical Details**](#4-technical-details)  
+   - [4.1 Procedural Room Generation](#41-procedural-room-generation)  
+   - [4.2 Enemy AI System + Crafting & Tools](#42-enemy-ai-system)  
+   - [4.3 Technical Architecture](#43-technical-architecture)  
+1. [**AI & Logic Implementation**](#5-ai--logic-implementation)  
+2. [**Programming & Procedural Systems**](#6-programming--procedural-systems)  
+3. [**Audio & Visuals**](#7-audio--visuals)  
+4. [**Accessibility & Localization**](#8-accessibility--localization)  
+5. [**Risk Mitigation**](#9-risk-mitigation)  
+6. [**Quality Assurance**](#10-quality-assurance)  
+7. [**Hardware Requirements**](#11-hardware-requirements)  
+8. [**Project Management**](#12-project-management)  
+9. [**Asset Pipeline**](#13-asset-pipeline)  
+10. [**Appendix**](#14-appendix)
+11. [**References**](#15-references)
 
 ---
 
