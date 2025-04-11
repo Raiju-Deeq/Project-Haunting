@@ -1,8 +1,3 @@
-202504081647
-Status: #GroupProject 
-Tags: [[Block 4 Team Project]]
-
-
 # Project Haunting GitHub README
 
 
