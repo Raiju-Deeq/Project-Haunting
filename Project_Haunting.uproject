@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{800C46C0-472B-C951-753E-A4B87A1A7692}",
+	"EngineAssociation": "{824154BE-4033-D263-4344-AA9231FA3A8E}",
 	"Category": "",
 	"Description": "",
 	"Plugins": [
@@ -13,6 +13,10 @@
 		},
 		{
 			"Name": "GeometryScripting",
+			"Enabled": true
+		},
+		{
+			"Name": "HoudiniEngine",
 			"Enabled": true
 		}
 	]
