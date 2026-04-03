@@ -7,12 +7,25 @@
 
 ### *formerly developed as Project Haunting*
 
-[![Steam](https://img.shields.io/badge/Available_on-Steam-1b2838?style=for-the-badge&logo=steam&logoColor=white)](https://store.steampowered.com)
+[![Steam](https://img.shields.io/badge/Available_on-Steam-1b2838?style=for-the-badge&logo=steam&logoColor=white)](https://store.steampowered.com/app/3902980/Haunting_Invitation/)
 [![Unreal Engine](https://img.shields.io/badge/Unreal_Engine-5.3.2-313131?style=for-the-badge&logo=unrealengine&logoColor=white)](https://www.unrealengine.com)
 [![Published by DMU](https://img.shields.io/badge/Published_by-De_Montfort_University-C8102E?style=for-the-badge)](https://www.dmu.ac.uk)
-[![Award](https://img.shields.io/badge/🏆_Best_Group_Project-DMU_End_of_Year_Show-gold?style=for-the-badge)](#awards--recognition)
+[![Award](https://img.shields.io/badge/🏆_Best_Group_Project-DMU_End_of_Year_Show-FFD700?style=for-the-badge)](#awards--recognition)
 
 </div>
+
+---
+
+> [!WARNING]
+> ## ⚠️ Repository Deprecation Notice
+>
+> **This repository is no longer actively maintained.**
+>
+> During development, the full project exceeded GitHub's storage limits due to large Unreal Engine asset files. The complete source has since been **migrated to [Diversion](https://www.diversion.dev/)**, a source control platform built for large-scale game projects.
+>
+> This repo serves as a **historical snapshot** of early development and documentation only.
+>
+> 🎮 **The game is live and fully playable on Steam:** [Haunting Invitation](https://store.steampowered.com/app/3902980/Haunting_Invitation/)
 
 ---
 
@@ -20,11 +33,11 @@
 
 > **🥇 Best Group Project — De Montfort University End of Year Show**
 >
-> *Haunting Invitation* was awarded **Best Group Project** at DMU's End of Year Showcase, beating out competing student titles across the entire Games Production cohort.
+> *Haunting Invitation* was awarded **Best Group Project** at DMU's End of Year Showcase, recognised above all competing student titles across the entire Games Production cohort.
 
 > **🎮 Launched on Steam**
 >
-> The game officially launched on **Steam** under the title **Haunting Invitation**, published by De Montfort University — one of a select number of student projects from DMU to reach a commercial storefront.
+> The game officially launched on **Steam** under the title **[Haunting Invitation](https://store.steampowered.com/app/3902980/Haunting_Invitation/)**, published by **De Montfort University** — one of a select number of student projects to reach a commercial storefront.
 
 ---
 
@@ -42,16 +55,19 @@ Built as a **group project** by second-year BSc Games Production students at **D
 | **Publisher** | De Montfort University |
 | **ESRB Rating** | Teen |
 | **Development Period** | 2024–2025 |
+| **Source Control** | Diversion (migrated from Git) |
 
 ---
 
 ## 👥 Team
 
-| Role | Name |
+| Name | Role(s) |
 |---|---|
-| Product Owner / Tech Developer | Mohamed Deeq Mohamed |
-| Scrum Master | Dahna Aldrighetti |
-| Tech Developer | Benjamin |
+| **Mohamed Deeq Mohamed** | Product Owner · Lead Programmer & Tech Developer |
+| **Dahna Aldrighetti** | Scrum Master · Art Lead |
+| **Benjamin** | Tech Developer |
+| **Harmeet** | Art Team |
+| **Liv** | Art Team · UI Design |
 
 ---
 
@@ -73,7 +89,7 @@ struct FRoomData : public FTableRowBase {
 ```
 
 ### 🤖 Enemy AI System
-The stalker enemy uses Behavior Trees and Unreal's EQS (Environment Query System) to patrol, detect, chase, and investigate — with a 180° FOV sight cone and dynamic hearing radius that reacts to player noise.
+The stalker enemy uses Behavior Trees and Unreal's EQS (Environment Query System) to patrol, detect, chase, and investigate — with a 180° FOV sight cone and a dynamic hearing radius that reacts to player noise.
 
 ```mermaid
 graph TD
@@ -93,11 +109,11 @@ A data-driven crafting system lets players combine scavenged resources into tool
 | Flashlight | Battery + Metal Scrap | Illuminates dark areas; briefly stuns the enemy |
 | Grappling Hook | Rope + Rusty Gear | Accesses elevated platforms and shortcuts |
 
-### 🔊 Dynamic Audio
-Integrated with Logic Pro X and FMOD Studio — audio layers intensify as the enemy closes distance, with a procedural heartbeat SFX system that responds to proximity in real-time.
+### 🔊 Dynamic Audio — Unreal MetaSounds
+All audio is implemented using **Unreal Engine's MetaSounds** system — a node-based, procedural audio graph tool that allowed the team to build fully dynamic, reactive soundscapes. Audio layers intensify as the enemy closes distance, with a procedural heartbeat SFX system that responds to proximity in real-time. MetaSounds enabled per-instance parameter control for true runtime audio reactivity without external middleware.
 
 ### 🎨 Lumen-Powered Visuals
-Leverage UE5's Lumen global illumination and Nanite geometry streaming for dense, high-detail environments with flickering horror lighting — without performance penalties on target hardware.
+Leveraging UE5's **Lumen** global illumination and **Nanite** geometry streaming for dense, high-detail environments with flickering horror lighting — without performance penalties on target hardware.
 
 ---
 
@@ -170,29 +186,6 @@ Full input remapping is supported for both Xbox and PlayStation controllers via 
 
 ---
 
-## 🚀 Getting Started (Source)
-
-> **Note:** This repo contains the Unreal Engine 5.3.2 source project files. To play the released game, please visit the Steam page.
-
-**Prerequisites:**
-- Unreal Engine 5.3.2
-- Windows 10/11
-- Git LFS enabled (`git lfs install`)
-
-**Clone the repo:**
-```bash
-git clone https://github.com/Raiju-Deeq/Project-Haunting.git
-cd Project-Haunting
-```
-
-**Open the project:**
-1. Right-click `Project_Haunting.uproject`
-2. Select *Generate Visual Studio project files*
-3. Open the solution and build
-4. Launch via `Project_Haunting.uproject`
-
----
-
 ## 📋 Technical Design Document
 
 <details>
@@ -210,7 +203,7 @@ cd Project-Haunting
 
 ### Performance Optimisation
 - Level streaming via `World Partition` to manage memory footprint
-- `content-visibility` culling for off-screen actors
+- Off-screen actor culling for runtime performance
 
 ### Quality Assurance — Playtesting Phases
 1. **Pre-Alpha**: Core movement & AI detection
@@ -242,7 +235,7 @@ main                        // Stable builds only
 
 ## 🔗 Links
 
-- 🎮 **[Play on Steam](https://store.steampowered.com)** — *Haunting Invitation*
+- 🎮 **[Play on Steam](https://store.steampowered.com/app/3902980/Haunting_Invitation/)** — *Haunting Invitation*
 - 📋 **[SCRUM Board](https://alexa03.atlassian.net/jira/software/projects/SCRUM/boards/1)** — Jira
 - 🏫 **[De Montfort University](https://www.dmu.ac.uk/home.aspx)**
 
@@ -250,6 +243,7 @@ main                        // Stable builds only
 
 ## 📚 References
 
+- [MetaSounds in Unreal Engine — Epic Games Docs](https://dev.epicgames.com/documentation/en-us/unreal-engine/metasounds-in-unreal-engine)
 - [Game Features & Modular Gameplay — Unreal Engine Docs](https://dev.epicgames.com/documentation/en-us/unreal-engine/game-features-and-modular-gameplay-in-unreal-engine)
 - [Data-Driven Gameplay Elements — Unreal Engine Docs](https://dev.epicgames.com/documentation/en-us/unreal-engine/data-driven-gameplay-elements-in-unreal-engine)
 - [Data Registries in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/data-registries-in-unreal-engine)
